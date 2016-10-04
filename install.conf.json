@@ -14,7 +14,9 @@
                 "~/.ideavimrc":{
                         "path": "ideavimrc",
                         "relink": true
-                }
+                },
+                "~/.irssi": "irssi/",
+                "~/.vim": "vim/"
             }
         }
 ]
