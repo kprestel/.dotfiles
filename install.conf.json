@@ -1,0 +1,20 @@
+[
+        {
+            "clean": ["~"]
+        },
+        {
+            "shell":[
+                ["mkdir -p ~/config", "Creating config folder"]
+            ]
+        },
+        {
+            "link": {
+                "~/.dotfiles": "",
+                "~/.vimrc": "vimrc",
+                "~/.ideavimrc":{
+                        "path": "ideavimrc",
+                        "relink": true
+                }
+            }
+        }
+]
