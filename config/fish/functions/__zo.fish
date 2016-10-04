@@ -1,0 +1,1 @@
+/home/kp/.config/fisherman/z/functions/__zo.fish

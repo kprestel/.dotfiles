@@ -1,0 +1,1 @@
+/home/kp/.config/fisherman/vi-mode/vi-mode-impl.py

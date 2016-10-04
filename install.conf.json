@@ -16,7 +16,10 @@
                         "relink": true
                 },
                 "~/.irssi": "irssi/",
-                "~/.vim": "vim/"
+                "~/.vim": "vim/",
+                "~/.config/fish": "config/fish/",
+                "~/.config/fisherman": "config/fisherman/",
+                "~/.gitconfig": "gitconfig"
             }
         }
 ]

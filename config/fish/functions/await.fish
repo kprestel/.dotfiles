@@ -1,0 +1,1 @@
+/home/kp/.config/fisherman/await/functions/await.fish
