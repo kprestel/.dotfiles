@@ -1,1 +1,15 @@
 oh-my-fish/theme-bobthefish
+<<<<<<< HEAD
+=======
+fisherman/fzf
+fisherman/getopts
+oh-my-fish/plugin-git-flow
+fisherman/last_job_id
+oh-my-fish/plugin-python
+oh-my-fish/plugin-ssh
+tuvistavie/fish-ssh-agent
+oh-my-fish/plugin-thefuck
+oh-my-fish/plugin-tmux
+oh-my-fish/plugin-vi-mode
+fisherman/z
+>>>>>>> 319053738e9d50c4ffc62b63bdf1757773612bf7
