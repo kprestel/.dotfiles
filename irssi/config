@@ -74,6 +74,7 @@ chatnets = {
   };
   Freenode = {
     type = "IRC";
+    nick = "kp__";
     max_kicks = "1";
     max_msgs = "4";
     max_whois = "1";
@@ -409,6 +410,6 @@ statusbar = {
   };
 };
 settings = {
-  core = { real_name = "kyle p"; user_name = "kp"; nick = "kp"; };
+  core = { real_name = "kyle p"; user_name = "kp__"; nick = "kp__"; };
   "fe-text" = { actlist_sort = "refnum"; };
 };
