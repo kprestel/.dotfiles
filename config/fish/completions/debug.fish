@@ -1,0 +1,1 @@
+/home/kp/.config/fisherman/debug/completions/debug.fish

@@ -1,1 +1,0 @@
-/home/kp/.config/fisherman/tmux/functions/tmux.fish

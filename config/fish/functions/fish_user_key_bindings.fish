@@ -1,4 +1,3 @@
-fish_vi_key_bindings
 
 fzf_key_bindings
 function fish_user_key_bindings
@@ -12,6 +11,15 @@ function fish_user_key_bindings
         bind -M insert \cr '__fzf_ctrl_r'
         bind -M insert \cx '__fzf_ctrl_x'
         bind -M insert \ec '__fzf_alt_c'
-    end
-    ### fzf ###
+end
+### fzf ###
+
+fish_vi_key_bindings
+bind -M insert -m dckward-char force-repaint
+
+for mode in insert default visual
+    bind -M $mode \cf forward-char
+   end
+
+
 end

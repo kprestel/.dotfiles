@@ -1,0 +1,1 @@
+/home/kp/.config/fisherman/get/completions/get.fish

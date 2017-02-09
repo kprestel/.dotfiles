@@ -1,1 +1,1 @@
-/home/kp/.config/fisherman/bobthefish/fish_prompt.fish
+/home/kp/.local/share/omf/themes/bobthefish/fish_prompt.fish

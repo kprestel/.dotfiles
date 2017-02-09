@@ -1,1 +1,0 @@
-/home/kp/.config/fisherman/ssh-agent/init.fish
