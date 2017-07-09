@@ -45,10 +45,11 @@ nnoremap <space>[ :action GotoSuperMethod<cr>
 nnoremap <space>u :action FindUsages<cr>
 nnoremap <space>gt :action GotoTest<cr>
 nnoremap <space>k :action HighlightUsagesInFile<cr>
-nnoremap \r :action RunClass<cr>
-nnoremap \R :action Run<cr>
-nnoremap \d :action DebugClass<cr>
-nnoremap \D :action Debug<cr>
+nnoremap \R :action RunClass<cr>
+nnoremap \r :action Run<cr>
+nnoremap <space>f :action ChooseRunConfiguration<cr>
+nnoremap \D :action DebugClass<cr>
+nnoremap \d :action Debug<cr>
 nnoremap \c :action CheckStyleCurrentFileAction<cr>
 
 " code refactoring

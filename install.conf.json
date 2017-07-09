@@ -29,7 +29,9 @@
                 "~/.config/fish": "config/fish/",
                 "~/.config/fisherman": "config/fisherman/",
                 "~/.config/omf": "config/omf/",
-                "~/.gitconfig": "gitconfig"
+                "~/.gitconfig": "gitconfig",
+                "~/.i3/config": "i3/config",
+                "~/i3blocks.conf": "i3/i3blocks.conf"
             }
         }
 ]
