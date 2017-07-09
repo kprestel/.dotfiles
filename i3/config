@@ -201,6 +201,7 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3blocks -c ~/i3blocks.conf
 }
+exec --no-startup-id pulseaudio --start
 # Pulse Audio controls
 bindsym XF86AudioRaiseVolume exec pactl set-sink-volume 1 +5% #increase sound volume
 bindsym XF86AudioLowerVolume exec pactl set-sink-volume 1 -5% #decrease sound volume
