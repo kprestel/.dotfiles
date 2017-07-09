@@ -1,5 +1,8 @@
 set fish_key_bindings fish_user_key_bindings
 
+eval (thefuck --alias | tr '\n' ';')
+. ~/z-fish/z.fish
+
 if [ ! -f ~/.fish_launched ]
     touch ~/.fish_launched
     neofetch
@@ -7,6 +10,9 @@ if [ ! -f ~/.fish_launched ]
 end
 
 set -xg PYTHONDONTWRITEBYTECODE 1
+
+set -g theme_display_docker_machine yes
+set -g theme_display_exit_status yes
 
 # set -g Z_SCRIPT_PATH ~/z-fish/z.fish
 
