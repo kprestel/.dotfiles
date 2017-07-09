@@ -7,3 +7,5 @@
 	excludesfile = ~/.gitignore
 [push]
 	default = simple
+[editor]
+	vim
