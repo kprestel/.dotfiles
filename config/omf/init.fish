@@ -1,6 +1,7 @@
 set fish_key_bindings fish_user_key_bindings
 
 eval (thefuck --alias | tr '\n' ';')
+eval (/usr/bin/python3.6 -m virtualfish auto_activation global_requirements projects)
 . ~/z-fish/z.fish
 
 if [ ! -f ~/.fish_launched ]
