@@ -36,6 +36,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'jistr/vim-nerdtree-tabs'
 Plug 'ap/vim-css-color'
 Plug 'dag/vim-fish'
+Plug 'ericpruitt/tmux.vim', {'rtp': 'vim/'}
 call plug#end()
 
 set hlsearch
