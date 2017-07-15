@@ -1,1 +1,3 @@
+package docker-machine
+package git@github.com:mgoodness/plugin-asp.git
 package virtualfish

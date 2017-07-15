@@ -142,7 +142,7 @@ bindsym $mod+Shift+0 move container to workspace $ws10
 # force apps to launch on certain workspaces
 assign [class="Spotify$"] $ws7
 assign [class="jetbrains-pycharm"] $ws2
-assign [class="wmail"] $ws9
+assign [class="wavebox"] $ws9
 for_window [class="^com-intellij-updater-Runner$" title="^Update$"] floating enable
 
 # https://github.com/ValveSoftware/steam-for-linux/issues/1040
@@ -220,7 +220,7 @@ floating_modifier $mod
 
  exec_always xrandr --output DP-3 --off --output DVI-I-0 --off --output HDMI-0 --mode 1920x1080 --pos 0x420 --rotate normal --output DP-5 --off --output DP-4 --primary --mode 2560x1440 --pos 1920x240 --rotate normal --output DVI-I-1 --off --output DP-2 --mode 1920x1080 --pos 4480x0 --rotate left --output DP-1 --off --output DP-0 --off
 
-exec wmail 
+exec wavebox
 # exec --no-startup-id spotify
 exec charm
 # for_window [class="Spotify"] move to workspace $ws7
