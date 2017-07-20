@@ -4,10 +4,13 @@ eval (thefuck --alias | tr '\n' ';')
 eval (/usr/bin/python3.6 -m virtualfish auto_activation global_requirements projects)
 . ~/z-fish/z.fish
 
-if [ ! -f ~/.fish_launched ]
-    touch ~/.fish_launched
-    neofetch
-    rm ~/.fish_launched
+
+function launch_neofetch
+    if [ ! -f ~/.fish_launched ]
+        touch ~/.fish_launched
+        neofetch
+        rm ~/.fish_launched
+    end
 end
 
 set -xg PYTHONDONTWRITEBYTECODE 1
@@ -55,3 +58,14 @@ else
         start_agent
     end  
 end
+
+function start_tmux
+    if type tmux > /dev/null
+        if test -z "$TMUX"; and test -z $TERMINAL_CONTEXT
+            tmux attach -t base; or tmux new -s base
+        end
+    end
+end
+
+start_tmux
+neofetch
