@@ -27,7 +27,7 @@
                 "~/.irssi": "irssi/",
                 "~/.vim": "vim/",
                 "~/.config/fish": "config/fish/",
-                "~/.config/fisherman": "config/fisherman/",
+                "~/.config/termite/config": "config/termite/config",
                 "~/.config/omf": "config/omf/",
                 "~/.gitconfig": "gitconfig",
                 "~/.i3/config": "i3/config",

@@ -37,6 +37,7 @@ Plug 'jistr/vim-nerdtree-tabs'
 Plug 'ap/vim-css-color'
 Plug 'dag/vim-fish'
 Plug 'ericpruitt/tmux.vim', {'rtp': 'vim/'}
+Plug 'PotatoesMaster/i3-vim-syntax'
 call plug#end()
 
 set hlsearch
